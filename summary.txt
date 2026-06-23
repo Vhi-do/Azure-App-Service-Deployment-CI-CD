@@ -1,0 +1,5 @@
+This project demonstrates the deployment of a .NET 10.0 Blazor web application to Azure App Service using the Free F1 pricing tier. 
+
+The goal was to move away from IaaS and utilize Azure's Platform as a Service (PaaS) capabilities, which abstract infrastructure management. Deployment was executed using three distinct strategies: an initial manual upload via the Azure Portal, integration with Visual Studio for IDE-based publishing, and a fully automated CI/CD pipeline utilizing Azure Pipelines with YAML configuration. 
+
+Version control was managed through Azure Repos. While the Free tier limits advanced features like deployment slots, the automated pipeline successfully enables continuous integration and zero-downtime updates on every commit to the main branch. The app is live and accessible at https://vhido.azurewebsites.net.
